@@ -1,0 +1,137 @@
+body {
+    background-color: #FFFFFE;
+}
+
+nav ul {
+    list-style: none;
+    background-color: #82755F;
+    text-align: left;
+    padding: 10px 20px;
+    margin: -15px -10px 40px -10px;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 20px 30px;
+    font-family: "Montserrat", sans-serif;
+    font-size: clamp(16px, 2vw, 20px);
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+nav a:hover {
+    color: #050604;
+}
+
+nav p {
+    text-decoration: none;
+    padding: 20px 30px;
+    font-family: "Montserrat", sans-serif;
+    font-size: clamp(16px, 2vw, 20px);
+    color: #050604;
+    letter-spacing: 2px;
+}
+    
+.hero {
+    background-image: 
+    linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35)),   url("https://www.travelandleisure.com/thmb/xjwKPxInzLEX6IYOzOXMdyAGkCI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/TAL-header-pool-four-seasons-taormina-san-domenico-palace-WHITELOTUS1122-9f396b33f2dd43ac99cb924f83a2ba06.jpg");
+    height: 650px;
+    margin: -50px -10px 0;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    text-shadow: 3px 3px #657E53;
+}
+
+.hero-title {
+    font-size: clamp(24px, 10vw, 90px);
+    margin-bottom: -10px;
+    color: #fff;
+    font-family: "Playwrite US Trad", cursive;
+    letter-spacing: 1px;
+}
+
+.hero-subtitle {
+    font-size: clamp(8px, 3vw, 30px);
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 1px;
+}
+
+.about-us h1 {
+    font-size: clamp(20px, 8vw, 60px);
+    margin-left: 50px;
+    margin-bottom: 35px;
+    color: #657E53;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 2px;
+}
+
+.about-us h2 {
+    font-size: clamp(15px, 5vw, 30px);
+    font-family: "Playwrite US Trad", cursive;
+    color: #657E53;
+    letter-spacing: 1px;
+}
+
+.about-us p {
+    font-family: "Montserrat", sans-serif;
+    margin-right: 30px;
+    margin-left: 30px;
+    color: #050604;
+    font-size: clamp(10px, 3vw, 18px);
+}
+
+.about-us img {
+    width: clamp(200px, 50vw, 600px);
+    height: auto;
+    float: left;
+    margin: 0 30px 20px 20px;
+    border-radius: 10px;
+}
+
+nav img {
+    width: clamp(70px, 6vw, 90px);
+    float: right;
+    margin-top: 7px;
+    border-radius: 50px;
+}
+
+hr {
+    overflow: visible;
+    border: none;
+    border-top: medium double #657E53;
+    color: #657E53;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+hr:after {
+    content: "𑁍";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: #FFFFFE;
+}
+
+footer {
+    text-align: center;
+}
+
+footer img {
+    width: clamp(150px, 5vw, 200px);
+    margin-top: -60px;
+}
