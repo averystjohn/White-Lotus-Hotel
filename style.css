@@ -12,7 +12,7 @@ nav ul {
 
 nav li {
     display: inline-block;
-    text-size: 2rem;
+    font-size: 1rem;
 }
 
 nav a {
