@@ -180,6 +180,6 @@ footer img {
     footer img {
         display: block;
         width: 150px;
-        margin: 20px auto 0;
+        margin: auto;
     }
 }
