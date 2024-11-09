@@ -175,6 +175,6 @@ footer img {
     footer img {
         display: block;
         width: 150px;
-        margin: auto;
+        margin-top: -20px;
     }
 }
