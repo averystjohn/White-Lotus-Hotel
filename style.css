@@ -142,9 +142,13 @@ footer img {
     padding: 10px 10px;
   }
   
-  nav p {
+    nav p {
     padding: 10px 10px;
   }
+
+    nav img {
+        width: clamp(20px, 15vw, 45px);
+    }
 
     .hero {
         height: 400px;
