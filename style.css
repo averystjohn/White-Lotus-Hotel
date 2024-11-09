@@ -102,7 +102,7 @@ nav p {
 }
 
 nav img {
-    width: clamp(70px, 6vw, 90px);
+    width: clamp(50px, 6vw, 70px);
     float: right;
     margin-top: 7px;
     border-radius: 50px;
@@ -137,11 +137,6 @@ footer img {
 }
 
 @media (max-width: 768px) {
-
-    nav img {
-        margin: 0 auto 10px;
-        width: clamp(50px, 20vw, 70px);
-    }
 
     .hero {
         height: 400px;
