@@ -31,7 +31,7 @@ nav p {
     text-decoration: none;
     padding: 20px 30px;
     font-family: "Montserrat", sans-serif;
-    font-size: clamp(16px, 2vw, 20px);
+    font-size: clamp(13px, 2vw, 20px);
     color: #050604;
     letter-spacing: 2px;
 }
