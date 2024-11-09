@@ -138,15 +138,13 @@ footer img {
 
 @media (max-width: 768px) {
     nav ul {
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
         text-align: center;
-        padding: 10px;
     }
 
     nav li {
         display: block;
-        margin: 10px 0;
     }
 
     nav img {
